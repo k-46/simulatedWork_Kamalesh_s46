@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="play">
+        <div class="user">
+            <ul id="userChoice" style="cursor: pointer;">
+                <li id="rock" onclick="changeUser(event)">
+                    rock
+                </li>
+                <li id="paper" onclick="changeUser(event)">
+                    paper
+                </li>
+                <li id="scissors" onclick="changeUser(event)">
+                    scissor
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="result">
+        <h4>
+            Computer's choice: <span id="compschoice"></span>
+        </h4>
+        <h4>
+            User's choice: <span id="userschoice"></span>
+        </h4>
+        <h1 id="result">
+
+        </h1>
+    </div>
+
+</body>
+<script src="./app.js">
+
+</script>
+
+</html>
