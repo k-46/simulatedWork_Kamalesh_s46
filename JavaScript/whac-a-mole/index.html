@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .play{
+        display: flex;
+        flex-wrap: wrap;
+        width: 606px;
+        height: 606px;
+    }
+    .square{
+        height: 200px;
+        width: 200px;
+        border: solid black 1px;
+    }
+    .mole{
+        background-image: url("https://github.com/Kalvium-Program/Image-files/blob/main/mole.jpg?raw=true");
+        background-size:contain;
+    }
+</style>
+
+<body>
+    <h2>
+        Score: <span id="result">0</span>
+    </h2>
+    <h2>
+        Time Left: <span id="timeLeft">60</span>
+    </h2>
+    <div class="play">
+        <div class="square" id="1"></div>
+        <div class="square" id="2"></div>
+        <div class="square" id="3"></div>
+        <div class="square" id="4"></div>
+        <div class="square" id="5"></div>
+        <div class="square" id="6"></div>
+        <div class="square" id="7"></div>
+        <div class="square" id="8"></div>
+        <div class="square" id="9"></div>
+    </div>
+</body>
+<script src="./app.js"></script>
+
+</html>
